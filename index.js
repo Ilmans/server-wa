@@ -15,7 +15,8 @@ var CronJob = require('cron').CronJob;
 const port = 7000;
 
 app.get('/', (req, res) => {
-    res.send('Hello world')
+    res.send('Hello world');
+    res.end();
 })
 
 // app.use(express.json());
