@@ -4,7 +4,7 @@
   "description": "Unofficial whatsapp API ",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
   },
   "keywords": [
     "Wamp",

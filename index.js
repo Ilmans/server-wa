@@ -12,7 +12,7 @@ const { Server } = require("socket.io");
 const io = new Server(server);
 //const { db } = require("./main/Database.js");
 var CronJob = require('cron').CronJob;
-const port = 7000;
+const port = 80;
 
 app.get('/', (req, res) => {
     res.write('hello world');
