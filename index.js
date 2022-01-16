@@ -15,7 +15,7 @@ var CronJob = require('cron').CronJob;
 const port = 7000;
 
 app.get('/', (req, res) => {
-    res.send('Hello world');
+    res.write('hello world');
     res.end();
 })
 
