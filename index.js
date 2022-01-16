@@ -5,12 +5,12 @@ const { body } = require("express-validator");
 const app = express();
 const server = http.createServer(app);
 const fs = require("fs");
-const { sendMessage, sendImage, sendDocument, validateKey, sendButton, sendBlast, sendBlastMedia, phoneNumberFormatter } = require("./main/Api.js");
+//const { sendMessage, sendImage, sendDocument, validateKey, sendButton, sendBlast, sendBlastMedia, phoneNumberFormatter } = require("./main/Api.js");
 const router = express.Router();
-const { loadSessionOrGenerateQR } = require('./main/Connection.js')
+//const { loadSessionOrGenerateQR } = require('./main/Connection.js')
 const { Server } = require("socket.io");
 const io = new Server(server);
-const { db } = require("./main/Database.js");
+//const { db } = require("./main/Database.js");
 var CronJob = require('cron').CronJob;
 const port = 7000;
 
